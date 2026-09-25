@@ -1,0 +1,6 @@
+{
+  "name": "VerseBI - Data & AI Solutions",
+  "description": "VerseBI helps businesses turn data into clear insights, intelligent automation, analytics solutions, and AI-powered decision support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

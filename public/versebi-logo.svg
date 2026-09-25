@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- VerseBI Brand Mark: Exact Geometry from Official Logo -->
+  <defs>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#22c55e" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="circleClip">
+      <circle cx="368" cy="140" r="62" />
+    </clipPath>
+  </defs>
+
+  <!-- Group: Emblem -->
+  <g id="versebi-emblem">
+    <!-- Network Globe / AI Node Disc (Layer behind bars) -->
+    <g id="network-globe">
+      <!-- Disc base -->
+      <circle cx="368" cy="140" r="62" fill="#42D566" />
+      
+      <!-- Network Nodes and Edges inside disc -->
+      <g clip-path="url(#circleClip)" stroke="#1A6B32" stroke-width="2.5" opacity="0.85">
+        <!-- Connecting Lines -->
+        <line x1="335" y1="120" x2="368" y2="105" />
+        <line x1="368" y1="105" x2="400" y2="125" />
+        <line x1="335" y1="120" x2="350" y2="155" />
+        <line x1="350" y1="155" x2="385" y2="150" />
+        <line x1="368" y1="105" x2="385" y2="150" />
+        <line x1="400" y1="125" x2="415" y2="155" />
+        <line x1="385" y1="150" x2="415" y2="155" />
+        <line x1="350" y1="155" x2="370" y2="185" />
+        <line x1="385" y1="150" x2="370" y2="185" />
+
+        <!-- Nodes (Dots) -->
+        <circle cx="335" cy="120" r="5" fill="#1A6B32" />
+        <circle cx="368" cy="105" r="5.5" fill="#1A6B32" />
+        <circle cx="400" cy="125" r="5" fill="#1A6B32" />
+        <circle cx="350" cy="155" r="5" fill="#1A6B32" />
+        <circle cx="385" cy="150" r="6" fill="#1A6B32" />
+        <circle cx="415" cy="155" r="4.5" fill="#1A6B32" />
+        <circle cx="370" cy="185" r="5" fill="#1A6B32" />
+      </g>
+    </g>
+
+    <!-- Left Wing (Crisp White Geometric Angled Block) -->
+    <polygon points="256,346 76,166 166,76 256,166" fill="#FFFFFF" />
+
+    <!-- Right Wing: Ascending Vertical Data Bars in Green -->
+    <!-- Bar 1 (Innermost, Shortest) -->
+    <polygon points="256,346 256,236 298,236 298,304" fill="#32BF56" />
+
+    <!-- Bar 2 (Medium Bar) -->
+    <!-- Dark shadow bevel on left -->
+    <polygon points="298,304 298,142 344,142 344,258" fill="#3CD367" />
+    <polygon points="298,304 298,142 308,152 308,294" fill="#249841" opacity="0.6" />
+
+    <!-- Bar 3 (Tallest Bar) -->
+    <polygon points="344,258 344,112 376,112 376,226" fill="#2EBC55" />
+    <!-- 3D shadow face -->
+    <polygon points="344,258 344,112 354,122 354,248" fill="#1C8136" opacity="0.65" />
+
+    <!-- Bar 4 (Outer Tall Bar) -->
+    <polygon points="376,226 376,124 406,124 406,196" fill="#46DC72" />
+    <!-- Far right diagonal corner completing the V contour -->
+    <polygon points="406,196 406,166 432,166 256,346" fill="#2AA74C" opacity="0" />
+    <!-- Dynamic angled edge completing the right wing silhouette -->
+    <path d="M 256 346 L 430 172 L 406 148 L 406 196 Z" fill="#28A649" />
+  </g>
+
+  <!-- Wordmark: VerseBI -->
+  <g id="versebi-wordmark">
+    <!-- "Verse" in White -->
+    <text x="74" y="432" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="82" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Verse</text>
+    <!-- "BI" in Brand Green -->
+    <text x="366" y="432" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="82" font-weight="800" fill="#4ADE80" letter-spacing="1">BI</text>
+  </g>
+</svg>
